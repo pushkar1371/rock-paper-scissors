@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  background-color: #302b27;
+  color: #ffff;
+  height: 5rem;
+  /* trick to get text at center vertically */
+  line-height: 5rem;
+  margin-bottom: 2.5rem;
+}
+
+.choice {
+  width: 165px;
+  height: 165px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.choice:hover {
+  background-color: #302b27;
+}
+img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.score-board {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  font-size: 2rem;
+}
+
+#user-score,
+#comp-score {
+  font-size: 4rem;
+}
+
+.msg-container {
+  margin-top: 5rem;
+}
+#msg {
+  background-color: #302b27;
+  color: #ffff;
+  font-size: 2rem;
+  display: inline;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+#restart {
+  background-color: #302b27;
+  color: #ffff;
+  margin-bottom: 1.5rem;
+  font-size: 20px;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
